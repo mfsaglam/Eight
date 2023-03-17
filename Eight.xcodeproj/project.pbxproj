@@ -14,6 +14,7 @@
 		E6B7B24029C4656A00B5AF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B7B23F29C4656A00B5AF34 /* Assets.xcassets */; };
 		E6B7B24329C4656A00B5AF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B7B24129C4656A00B5AF34 /* LaunchScreen.storyboard */; };
 		E6B7B24B29C4660F00B5AF34 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */; };
+		E6B7B24D29C4667A00B5AF34 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E6B7B24229C4656A00B5AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6B7B24429C4656A00B5AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E6B7B23F29C4656A00B5AF34 /* Assets.xcassets */,
 				E6B7B24129C4656A00B5AF34 /* LaunchScreen.storyboard */,
 				E6B7B24429C4656A00B5AF34 /* Info.plist */,
+				E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */,
 			);
 			path = Eight;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				E6B7B24B29C4660F00B5AF34 /* Coordinator.swift in Sources */,
 				E6B7B23B29C4656900B5AF34 /* ViewController.swift in Sources */,
+				E6B7B24D29C4667A00B5AF34 /* Storyboarded.swift in Sources */,
 				E6B7B23729C4656900B5AF34 /* AppDelegate.swift in Sources */,
 				E6B7B23929C4656900B5AF34 /* SceneDelegate.swift in Sources */,
 			);
