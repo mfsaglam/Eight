@@ -30,13 +30,25 @@
                     <view key="view" contentMode="scaleToFill" id="Fo5-LP-lNl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAn-n3-FLE">
+                                <rect key="frame" x="169.66666666666666" y="408.66666666666669" width="54" height="35"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Buy"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lJA-pA-lxw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KAn-n3-FLE" firstAttribute="centerY" secondItem="Fo5-LP-lNl" secondAttribute="centerY" id="4ew-db-wnm"/>
+                            <constraint firstItem="KAn-n3-FLE" firstAttribute="centerX" secondItem="Fo5-LP-lNl" secondAttribute="centerX" id="Jgu-aH-6Pi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S4r-9N-ouG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="11"/>
+            <point key="canvasLocation" x="781" y="4"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="54A-Zq-Omz">
@@ -45,18 +57,36 @@
                     <view key="view" contentMode="scaleToFill" id="TjT-XK-zOa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8r-M9-Bat">
+                                <rect key="frame" x="126" y="408.66666666666669" width="141" height="35"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Create account"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bxx-0b-Az5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z8r-M9-Bat" firstAttribute="centerY" secondItem="TjT-XK-zOa" secondAttribute="centerY" id="Hg4-41-2QB"/>
+                            <constraint firstItem="z8r-M9-Bat" firstAttribute="centerX" secondItem="TjT-XK-zOa" secondAttribute="centerX" id="JkD-5d-dIZ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qi3-k0-58c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1521" y="25"/>
+            <point key="canvasLocation" x="1523" y="4"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
