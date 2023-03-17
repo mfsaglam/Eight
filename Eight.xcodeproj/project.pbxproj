@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1237484329C4BC7200E6C4C0 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */; };
 		E6B7B23729C4656900B5AF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23629C4656900B5AF34 /* AppDelegate.swift */; };
 		E6B7B23929C4656900B5AF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23829C4656900B5AF34 /* SceneDelegate.swift */; };
 		E6B7B23B29C4656900B5AF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23A29C4656900B5AF34 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		E6B7B23329C4656900B5AF34 /* Eight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B7B23629C4656900B5AF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B7B23829C4656900B5AF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */,
 				E6B7B24E29C46E6E00B5AF34 /* MainCoordinator.swift */,
 				E6B7B25029C497A700B5AF34 /* BuyViewController.swift */,
+				1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */,
 			);
 			path = Eight;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				E6B7B24F29C46E6E00B5AF34 /* MainCoordinator.swift in Sources */,
 				E6B7B23B29C4656900B5AF34 /* ViewController.swift in Sources */,
 				E6B7B24D29C4667A00B5AF34 /* Storyboarded.swift in Sources */,
+				1237484329C4BC7200E6C4C0 /* CreateAccountViewController.swift in Sources */,
 				E6B7B23729C4656900B5AF34 /* AppDelegate.swift in Sources */,
 				E6B7B25129C497A700B5AF34 /* BuyViewController.swift in Sources */,
 				E6B7B23929C4656900B5AF34 /* SceneDelegate.swift in Sources */,
