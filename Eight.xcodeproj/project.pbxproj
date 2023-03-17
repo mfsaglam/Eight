@@ -51,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */,
-				E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -59,19 +58,68 @@
 		1237484529C4C12F00E6C4C0 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */,
 				E6B7B24E29C46E6E00B5AF34 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		1237484629C4C13E00E6C4C0 /* ViewControllers */ = {
+		1237484629C4C13E00E6C4C0 /* ScreenFlows */ = {
+			isa = PBXGroup;
+			children = (
+				1237484729C4C8FF00E6C4C0 /* Home */,
+				1237484929C4C91900E6C4C0 /* Buy */,
+				1237484B29C4C92F00E6C4C0 /* CreateAccount */,
+			);
+			path = ScreenFlows;
+			sourceTree = "<group>";
+		};
+		1237484729C4C8FF00E6C4C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1237484829C4C90B00E6C4C0 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1237484829C4C90B00E6C4C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				E6B7B23A29C4656900B5AF34 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1237484929C4C91900E6C4C0 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				1237484A29C4C92800E6C4C0 /* View */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		1237484A29C4C92800E6C4C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				E6B7B25029C497A700B5AF34 /* BuyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1237484B29C4C92F00E6C4C0 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				1237484C29C4C93800E6C4C0 /* View */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		1237484C29C4C93800E6C4C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */,
 			);
-			path = ViewControllers;
+			path = View;
 			sourceTree = "<group>";
 		};
 		E6B7B22A29C4656900B5AF34 = {
@@ -100,7 +148,7 @@
 				E6B7B24129C4656A00B5AF34 /* LaunchScreen.storyboard */,
 				E6B7B24429C4656A00B5AF34 /* Info.plist */,
 				1237484429C4C10E00E6C4C0 /* Protocols */,
-				1237484629C4C13E00E6C4C0 /* ViewControllers */,
+				1237484629C4C13E00E6C4C0 /* ScreenFlows */,
 				1237484529C4C12F00E6C4C0 /* Coordinator */,
 			);
 			path = Eight;
