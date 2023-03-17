@@ -13,6 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func buyTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func createAccount(_ sender: UIButton) {
+    }
+    
 }
 
 extension ViewController: Storyboarded {
