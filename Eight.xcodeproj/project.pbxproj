@@ -47,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1237484429C4C10E00E6C4C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */,
+				E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1237484529C4C12F00E6C4C0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7B24E29C46E6E00B5AF34 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1237484629C4C13E00E6C4C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7B23A29C4656900B5AF34 /* ViewController.swift */,
+				E6B7B25029C497A700B5AF34 /* BuyViewController.swift */,
+				1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E6B7B22A29C4656900B5AF34 = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +95,13 @@
 			children = (
 				E6B7B23629C4656900B5AF34 /* AppDelegate.swift */,
 				E6B7B23829C4656900B5AF34 /* SceneDelegate.swift */,
-				E6B7B23A29C4656900B5AF34 /* ViewController.swift */,
-				E6B7B24A29C4660F00B5AF34 /* Coordinator.swift */,
 				E6B7B23C29C4656900B5AF34 /* Main.storyboard */,
 				E6B7B23F29C4656A00B5AF34 /* Assets.xcassets */,
 				E6B7B24129C4656A00B5AF34 /* LaunchScreen.storyboard */,
 				E6B7B24429C4656A00B5AF34 /* Info.plist */,
-				E6B7B24C29C4667A00B5AF34 /* Storyboarded.swift */,
-				E6B7B24E29C46E6E00B5AF34 /* MainCoordinator.swift */,
-				E6B7B25029C497A700B5AF34 /* BuyViewController.swift */,
-				1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */,
+				1237484429C4C10E00E6C4C0 /* Protocols */,
+				1237484629C4C13E00E6C4C0 /* ViewControllers */,
+				1237484529C4C12F00E6C4C0 /* Coordinator */,
 			);
 			path = Eight;
 			sourceTree = "<group>";
