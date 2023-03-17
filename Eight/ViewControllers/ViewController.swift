@@ -17,9 +17,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buyTapped(_ sender: UIButton) {
+        
     }
     
     @IBAction func createAccount(_ sender: UIButton) {
+        
     }
     
 }
