@@ -17,3 +17,5 @@ class CreateAccountViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 }
+
+extension CreateAccountViewController: Storyboarded { }

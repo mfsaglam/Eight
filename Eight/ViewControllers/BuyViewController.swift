@@ -17,3 +17,5 @@ class BuyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 }
+
+extension BuyViewController: Storyboarded { }
