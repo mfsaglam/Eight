@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1237484329C4BC7200E6C4C0 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */; };
+		1237484E29C4C9F400E6C4C0 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237484D29C4C9F400E6C4C0 /* BuyCoordinator.swift */; };
 		E6B7B23729C4656900B5AF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23629C4656900B5AF34 /* AppDelegate.swift */; };
 		E6B7B23929C4656900B5AF34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23829C4656900B5AF34 /* SceneDelegate.swift */; };
 		E6B7B23B29C4656900B5AF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B7B23A29C4656900B5AF34 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		1237484229C4BC7200E6C4C0 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		1237484D29C4C9F400E6C4C0 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 		E6B7B23329C4656900B5AF34 /* Eight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B7B23629C4656900B5AF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6B7B23829C4656900B5AF34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		1237484929C4C91900E6C4C0 /* Buy */ = {
 			isa = PBXGroup;
 			children = (
+				1237484D29C4C9F400E6C4C0 /* BuyCoordinator.swift */,
 				1237484A29C4C92800E6C4C0 /* View */,
 			);
 			path = Buy;
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1237484E29C4C9F400E6C4C0 /* BuyCoordinator.swift in Sources */,
 				E6B7B24B29C4660F00B5AF34 /* Coordinator.swift in Sources */,
 				E6B7B24F29C46E6E00B5AF34 /* MainCoordinator.swift in Sources */,
 				E6B7B23B29C4656900B5AF34 /* ViewController.swift in Sources */,

@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    weak var coordinator: Coordinator?
+    weak var coordinator: MainCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     @IBAction func createAccount(_ sender: UIButton) {
         coordinator?.createAccount()
     }
-    
 }
 
 extension ViewController: Storyboarded { }

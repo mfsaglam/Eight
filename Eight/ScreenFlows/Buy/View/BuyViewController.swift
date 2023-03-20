@@ -9,12 +9,17 @@ import UIKit
 
 class BuyViewController: UIViewController {
     
-    weak var coordinator: Coordinator?
+    weak var coordinator: BuyCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        coordinator?.didFinishBuying()
     }
 }
 
